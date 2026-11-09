@@ -22,20 +22,7 @@ button.addEventListener("click", () => {
     
 
     
-    element.addEventListener("click", (e) => {
-        if(e.target.classList.contains("supprime")){
-            e.target.closest(".list").remove()
-        }
-        })
-
-
-
-    element.addEventListener("click", (e) => {
-    
-        if(e.target.classList.contains("marque")){
-            e.target.closest(".list").querySelector(".input").classList.add("bg-green-100")
-        }
-    })
+   
         
     
 
